@@ -10,7 +10,7 @@ let apiKey = 'ea8989019ca1475cad8b68d0e62c2238';
 // Create an ajax get request
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', 'https://newsapi.org/v2/everything?q=bitcoin&apiKey=ea8989019ca1475cad8b68d0e62c2238', true);
+xhr.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&apiKey=ea8989019ca1475cad8b68d0e62c2238', true);
 xhr.getResponseHeader('Content-type', 'application/json');
 
 xhr.onload = function() {
